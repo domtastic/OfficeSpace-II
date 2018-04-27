@@ -1,5 +1,6 @@
 .admin-table{
     width: 100%;
+    max-width: 830px;
     padding: 15px;
 }
 
@@ -38,7 +39,7 @@
 }
 
 .admin-file-link{
-    width: 10%;
+    width: 13%;
     margin-left: 10%;
 }
 
@@ -52,7 +53,7 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    height: 30px;
+    height: 50px;
     line-height: 30px;
     margin-top: 10px;
     font-weight: bold;
@@ -65,11 +66,12 @@
 .admin-header-name{
     width: 45%;
     text-align: left;
-    padding-left: 70px;
+    padding-left: 50px;
 }
 
 .admin-header-company{
     width: 35%;
+    padding-left: 3%;
 }
 
 .admin-header-link{
