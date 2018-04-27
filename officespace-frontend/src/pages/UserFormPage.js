@@ -2,31 +2,27 @@ import React from 'react';
 import SideBar from '../../components/sidebar/side-bar';
 import Header from '../../components/Header/Header';
 import Footer from '../../components/footer/footer';
-
+import UserForm from '../../components/form/form.js';
 import {Col, Row, Container, Card, CardBody, CardTitle} from 'reactstrap';
 
-
-const ClientDashboard = () => (
+const UserFormPage = () => (
     <div className="main-panel" style={{
 
-  position: "relative",
-  float:"right",
   width: "calc(100%-280px)",
   height:"95vh",
-
+  overflow: "auto",
   backgroundColor:"#fafcfe",
   minHeight: "100%",
-overflow: "auto",
-
   boxShadow: "0 30px 130px 0 rgba(90, 105, 116, 0.1)"
 }}>
-  <Header/>
+
+<SideBar/>
 
   <div className="content" style={{padding:"10px"}}>
 
+<UserForm/>
 
 
-       <Col md="12">
             
          <Card style={{border: "1px solid #e3e3e3", borderRadius:"4px", marginBottom:"10px", marginTop:"10px"}}> 
 
@@ -40,8 +36,6 @@ overflow: "auto",
 </CardBody>
 </Card>
          
-  </Col>
-
 
 
 
@@ -53,4 +47,4 @@ overflow: "auto",
 
 );
 
-export default ClientDashboard;
+ export default UserFormPage;

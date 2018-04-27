@@ -23,7 +23,7 @@ Lockfile:
   No lockfile
 
 Trace: 
-  Error: Couldn't find a package.json file in "/Users/audreydavis/Desktop/OfficeSpace"
+  Error: Couldn't find a package.json file in "/Users/audreydavis/Desktop/OfficeSpace-II"
       at new MessageError (/usr/local/lib/node_modules/yarn/lib/cli.js:186:110)
       at /usr/local/lib/node_modules/yarn/lib/cli.js:40048:15
       at Generator.next (<anonymous>)
