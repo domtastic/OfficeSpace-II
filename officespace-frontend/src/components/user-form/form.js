@@ -169,52 +169,54 @@ class UserForm extends Component
 	render()
         {
             return (
-                <div className="main-panel" style={{
+                <div className="user-main-panel" style={{
                     width: "100%",
                     height: "100%",
                 }}>
                     <div className={'user-form-card'}>
                         <div className={'user-form-card-content'}>
-                            <div className="user-form shadow">
+                            <div>
 
                                 <p className="user-form-header">User Form</p>
-                                <div className="user-form-group">
-                                    <label htmlFor="inputTextUsername">Username</label>
-                                    <input onKeyUp={this.onKeyUpInputTextUsername} type="text" className="form-control"
-                                           id="userInputTextUsername" placeholder="Username"/>
-                                </div>
-                                <div className="user-form-group">
-                                    <label htmlFor="inputTextPassword">Password</label>
-                                    <input onKeyUp={this.onKeyUpInputTextPassword} type="password"
-                                           className="form-control" id="userInputTextPassword" placeholder="Password"/>
-                                </div>
-                                <div className="user-form-group">
-                                    <label htmlFor="inputTextEmail">Email</label>
-                                    <input onKeyUp={this.onKeyUpInputTextEmail} type="text" className="form-control"
-                                           id="userInputTextEmail" placeholder="Email"/>
-                                </div>
-                                {/* <div className="user-form-group">
-                                    <label htmlFor="inputTextBucket">Bucket</label>
-                                    <input onKeyUp={this.onKeyUpInputTextBucket} type="text" className="form-control" id="inputTextBucket" placeholder="Bucket"/>
-                                </div> */}
-                                <div className="user-form-group">
-                                    <label htmlFor="inputTextImgUrl">Image URL</label>
-                                    <input onKeyUp={this.onKeyUpInputTextImgUrl} type="text" className="form-control"
-                                           id="userInputTextImgUrl" placeholder="URL"/>
-                                </div>
-                                <div className="user-form-group">
-                                    <label htmlFor="inputSelectRegion">Region</label>
-                                    <select onChange={this.onChangeInputSelectRegion} className="form-control"
-                                            id="userInputSelectRegion">
-                                        <option value="option">Select Region</option>
-                                        <option value="option">US-East-1 (Ohio)</option>
-                                        <option value="option">US-East-2 (N. Virginia)</option>
-                                        <option value="option">US-West-1 (Oregon)</option>
-                                        <option value="option">US-West-2 (N. California)</option>
-                                        <option value="option">EU-West-1 (Ireland)</option>
-                                        <option value="option">EU-West-2 (London)</option>
-                                        <option value="option">EU-West-3 (Paris)</option>
-                                    </select>
+                                <div className={"user-form-spacing"}>
+                                    <div className={"user-form-group"}>
+                                        <label htmlFor="inputTextUsername">Username</label>
+                                        <input onKeyUp={this.onKeyUpInputTextUsername} type="text" className="form-control"
+                                               id="userInputTextUsername" placeholder="Username"/>
+                                    </div>
+                                    <div className="user-form-group">
+                                        <label htmlFor="inputTextPassword">Password</label>
+                                        <input onKeyUp={this.onKeyUpInputTextPassword} type="password"
+                                               className="form-control" id="userInputTextPassword" placeholder="Password"/>
+                                    </div>
+                                    <div className="user-form-group">
+                                        <label htmlFor="inputTextEmail">Email</label>
+                                        <input onKeyUp={this.onKeyUpInputTextEmail} type="text" className="user-form-control"
+                                               id="userInputTextEmail" placeholder="Email"/>
+                                    </div>
+                                    {/* <div className="user-form-group">
+                                        <label htmlFor="inputTextBucket">Bucket</label>
+                                        <input onKeyUp={this.onKeyUpInputTextBucket} type="text" className="form-control" id="inputTextBucket" placeholder="Bucket"/>
+                                    </div> */}
+                                    <div className="user-form-group">
+                                        <label htmlFor="inputTextImgUrl">Image URL</label>
+                                        <input onKeyUp={this.onKeyUpInputTextImgUrl} type="text" className="user-form-control"
+                                               id="userInputTextImgUrl" placeholder="URL"/>
+                                    </div>
+                                    <div className="user-form-group">
+                                        <label htmlFor="inputSelectRegion">Region</label>
+                                        <select onChange={this.onChangeInputSelectRegion} className="user-form-control"
+                                                id="userInputSelectRegion">
+                                            <option value="option">Select Region</option>
+                                            <option value="option">US-East-1 (Ohio)</option>
+                                            <option value="option">US-East-2 (N. Virginia)</option>
+                                            <option value="option">US-West-1 (Oregon)</option>
+                                            <option value="option">US-West-2 (N. California)</option>
+                                            <option value="option">EU-West-1 (Ireland)</option>
+                                            <option value="option">EU-West-2 (London)</option>
+                                            <option value="option">EU-West-3 (Paris)</option>
+                                        </select>
+                                    </div>
                                 </div>
                                 <button onClick={this.onClickSubmitForm} className="user-form-btn">Submit</button>
 
