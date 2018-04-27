@@ -188,27 +188,27 @@ onClickSubmitForm(event)
 			 <div className="user-form shadow">
 			
 			  <p className="font-form paragraph-header">User Form</p>
-				<div className="form-group">
+				<div className="signin-form-group">
                     <label htmlFor="inputTextUsername">Username</label>
                     <input onKeyUp={this.onKeyUpInputTextUsername} type="text" className="form-control" id="inputTextUsername" placeholder="Username"/>
                 </div>
-                <div className="form-group">
+                <div className="signin-form-group">
                     <label htmlFor="inputTextPassword">Password</label>
                     <input onKeyUp={this.onKeyUpInputTextPassword} type="password" className="form-control" id="inputTextPassword" placeholder="Password"/>
                 </div> 
-                 <div className="form-group">
+                 <div className="signin-form-group">
                     <label htmlFor="inputTextEmail">Email</label>
                     <input onKeyUp={this.onKeyUpInputTextEmail} type="text" className="form-control" id="inputTextEmail" placeholder="Email"/>
                 </div>
-                 {/* <div className="form-group">
+                 {/* <div className="signin-form-group">
                     <label htmlFor="inputTextBucket">Bucket</label>
                     <input onKeyUp={this.onKeyUpInputTextBucket} type="text" className="form-control" id="inputTextBucket" placeholder="Bucket"/>
                 </div> */}
-				 <div className="form-group">
+				 <div className="signin-form-group">
                     <label htmlFor="inputTextImgUrl">Image URL</label>
                     <input onKeyUp={this.onKeyUpInputTextImgUrl} type="text" className="form-control" id="inputTextImgUrl" placeholder="URL"/>
                 </div>
-  				<div className="form-group">
+  				<div className="signin-form-group">
                     <label htmlFor="inputSelectRegion">Region</label>
                     <select onChange={this.onChangeInputSelectRegion} className="form-control" 
                     id="inputSelectRegion" >
