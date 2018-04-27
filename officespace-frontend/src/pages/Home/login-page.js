@@ -73,17 +73,17 @@ export default class Login extends Component {
  <Form>
 
 
-        <div className="form-group"style={{marginLeft:"15px", marginTop:"-30px"}}>
+        <div className="form-group"style={{marginLeft:"25px", marginTop:"-30px"}}>
          
-                  <Input type="email" className="form-control" id="inputTextEmail" placeholder="Email" onChange={this.handleChange} style={{width:"40%"}}/>
+                  <Input type="email" className="form-control inputTextEmail" id="inputTextEmail" placeholder="Email" onChange={this.handleChange} style={{width:"100%"}}/>
         </div>
    
     
-       <div className="form-group" style={{marginLeft:"15px"}}>
+       <div className="form-group" style={{marginLeft:"25px"}}>
        
-                      <Input type="password" className="form-control" id="inputTextPassword" placeholder="Password" onChange={this.handleChange} style={{width:"40%", marginTop:"-100px"}}/>
+                      <Input type="password" className="form-control" id="inputTextPassword" placeholder="Password" onChange={this.handleChange} style={{width:"100%", marginTop:"0"}}/>
        
-                    <Link to={`/dashboard`}><button className="btn btn" style={{marginTop:"-80px", width:"40%", marginLeft:"2px", backgroundColor:"#53C6BA"}} onClick={() => {
+                    <Link to={`/dashboard`}><button className="btn btn" style={{marginTop:"-80px", width:"100%", marginLeft:"0", backgroundColor:"#53C6BA"}} onClick={() => {
                       this.props.handleLogin(this.state, () => {
                         this.setState({ redirect: true });
                       })
