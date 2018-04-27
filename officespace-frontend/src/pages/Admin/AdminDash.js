@@ -25,7 +25,7 @@ const Dashboard = () => (
   <div className="content" style={{padding:"10px", marginLeft:"300px"}}>
 
  <Col md="12">
-
+<CompanyCards/>
 <AdminTable/>
 
 </Col>

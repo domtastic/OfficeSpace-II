@@ -42,10 +42,6 @@ var _router = require('./router');
 
 var _router2 = _interopRequireDefault(_router);
 
-var _nodemailer = require('nodemailer');
-
-var _nodemailer2 = _interopRequireDefault(_nodemailer);
-
 var _config = require('./config');
 
 var _awsSdk = require('aws-sdk');
@@ -60,6 +56,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 // Amazon S3 Setup
 _awsSdk2.default.config.update(_config.s3Config);
+// import nodemailer from 'nodemailer'
+
 
 _awsSdk2.default.config.region = _config.s3Region;
 
@@ -67,7 +65,8 @@ var s3 = new _awsSdk2.default.S3();
 
 // Setup Email
 
-var email = _nodemailer2.default.createTransport(_config.smtp);
+// let email = nodemailer.createTransport(smtp);
+
 
 // File storage config
 
@@ -131,7 +130,7 @@ app.use(_bodyParser2.default.json({
 app.set('root', __dirname);
 app.set('storageDir', storageDir);
 app.upload = upload;
-app.email = email;
+// app.email = email;
 app.s3 = s3;
 
 //Connect to the database.

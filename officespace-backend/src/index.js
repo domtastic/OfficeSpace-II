@@ -9,7 +9,7 @@ import path from 'path';
 
 import {connect} from "./database";
 import AppRouter from './router'
-import nodemailer from 'nodemailer'
+// import nodemailer from 'nodemailer'
 import {smtp, s3Config, s3Region,s3Bucket} from './config'
 
 // Amazon S3 Setup
@@ -27,7 +27,7 @@ const s3 = new AWS.S3();
 
 // Setup Email
 
-let email = nodemailer.createTransport(smtp);
+// let email = nodemailer.createTransport(smtp);
 
 
 // File storage config
@@ -97,7 +97,7 @@ app.use(bodyParser.json({
 app.set('root', __dirname);
 app.set('storageDir', storageDir);
 app.upload = upload;
-app.email = email;
+// app.email = email;
 app.s3 = s3;
 
 //Connect to the database.
