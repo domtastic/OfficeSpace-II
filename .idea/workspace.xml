@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55bfba6f-4c2d-4e99-ba53-0001e87f4b10" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/officespace-frontend/src/components/form/form.css" beforeDir="false" afterPath="$PROJECT_DIR$/officespace-frontend/src/components/form/form.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/officespace-frontend/src/components/form/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/officespace-frontend/src/components/form/form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/officespace-frontend/src/pages/Home/login-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/officespace-frontend/src/pages/Home/login-page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/officespace-frontend/src/pages/Home/login-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/officespace-frontend/src/pages/Home/login-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/officespace-frontend/src/components/admin-table/admin-table.css" beforeDir="false" afterPath="$PROJECT_DIR$/officespace-frontend/src/components/admin-table/admin-table.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/officespace-frontend/src/components/client-table/client-table.css" beforeDir="false" afterPath="$PROJECT_DIR$/officespace-frontend/src/components/client-table/client-table.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/officespace-frontend/src/components/client-table/client-table.js" beforeDir="false" afterPath="$PROJECT_DIR$/officespace-frontend/src/components/client-table/client-table.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,41 +18,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="login-page.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/officespace-frontend/src/pages/Home/login-page.js">
+      <file leaf-file-name="admin-table.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/officespace-frontend/src/components/admin-table/admin-table.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="85" column="126" selection-start-line="85" selection-start-column="126" selection-end-line="85" selection-end-column="126" />
+            <state relative-caret-position="409">
+              <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin-table.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/officespace-frontend/src/components/admin-table/admin-table.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="47" column="76" selection-start-line="47" selection-start-column="76" selection-end-line="47" selection-end-column="76" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login-page.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/officespace-frontend/src/pages/Home/login-page.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/officespace-frontend/src/components/form/form.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="192" column="34" lean-forward="true" selection-start-line="192" selection-start-column="34" selection-end-line="192" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/officespace-frontend/src/components/form/form.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="49">
-              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -69,13 +49,15 @@
       <list>
         <option value="$PROJECT_DIR$/officespace-frontend/src/pages/Admin/AdminDash.js" />
         <option value="$PROJECT_DIR$/officespace-frontend/src/components/admin-table/admin-table.js" />
-        <option value="$PROJECT_DIR$/officespace-frontend/src/components/admin-table/admin-table.css" />
         <option value="$PROJECT_DIR$/officespace-frontend/src/components/user-form/form.css" />
         <option value="$PROJECT_DIR$/officespace-frontend/src/components/user-form/form.js" />
         <option value="$PROJECT_DIR$/officespace-frontend/src/components/form/form.css" />
         <option value="$PROJECT_DIR$/officespace-frontend/src/components/form/form.js" />
         <option value="$PROJECT_DIR$/officespace-frontend/src/pages/Home/login-page.css" />
         <option value="$PROJECT_DIR$/officespace-frontend/src/pages/Home/login-page.js" />
+        <option value="$PROJECT_DIR$/officespace-frontend/src/components/client-table/client-table.js" />
+        <option value="$PROJECT_DIR$/officespace-frontend/src/components/client-table/client-table.css" />
+        <option value="$PROJECT_DIR$/officespace-frontend/src/components/admin-table/admin-table.css" />
       </list>
     </option>
   </component>
@@ -133,6 +115,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="admin-table" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OfficeSpace-II" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OfficeSpace-II" type="462c0819:PsiDirectoryNode" />
+              <item name="officespace-frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="client-table" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OfficeSpace-II" type="b2602c69:ProjectViewProjectNode" />
@@ -203,12 +193,12 @@
       <option name="presentableId" value="Default" />
       <updated>1524797709110</updated>
       <workItem from="1524797712161" duration="5348000" />
-      <workItem from="1524860407351" duration="2574000" />
+      <workItem from="1524860407351" duration="4267000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7922000" />
+    <option name="totallyTimeSpent" value="9615000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="23" width="1154" height="799" extended-state="0" />
@@ -291,27 +281,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/officespace-frontend/src/components/admin-table/admin-table.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="47" column="76" selection-start-line="47" selection-start-column="76" selection-end-line="47" selection-end-column="76" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/officespace-frontend/src/components/user-form/form.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="181" column="70" selection-start-line="181" selection-start-column="70" selection-end-line="181" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/officespace-frontend/src/components/admin-table/admin-table.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -322,10 +295,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/officespace-frontend/src/components/form/form.css">
+    <entry file="file://$PROJECT_DIR$/officespace-frontend/src/pages/Home/login-page.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        <state relative-caret-position="413">
+          <caret line="85" column="126" selection-start-line="85" selection-start-column="126" selection-end-line="85" selection-end-column="126" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -343,13 +319,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/officespace-frontend/src/pages/Home/login-page.js">
+    <entry file="file://$PROJECT_DIR$/officespace-frontend/src/components/form/form.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="85" column="126" selection-start-line="85" selection-start-column="126" selection-end-line="85" selection-end-column="126" />
+        <state relative-caret-position="49">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/officespace-frontend/src/components/client-table/client-table.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="83" column="1" selection-start-line="83" selection-start-column="1" selection-end-line="83" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/officespace-frontend/src/components/client-table/client-table.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="41" column="81" selection-start-line="41" selection-start-column="81" selection-end-line="41" selection-end-column="81" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/officespace-frontend/src/components/admin-table/admin-table.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="47" column="76" selection-start-line="47" selection-start-column="76" selection-end-line="47" selection-end-column="76" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/officespace-frontend/src/components/admin-table/admin-table.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
         </state>
       </provider>
     </entry>
