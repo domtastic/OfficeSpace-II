@@ -25,7 +25,7 @@ const Dashboard = () => (
 <SideBar/>
 
   <div className="content" style={{padding:"10px", marginLeft:"300px", marginTop:"10px"}}>
-
+<AdminTable/>
  <Col md="12">
  
 

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './admin-table.css';
-
+import {Card, CardHeader, Label, Input} from 'reactstrap';
 class AdminTable extends Component {
 
     constructor(props){
@@ -41,14 +41,22 @@ class AdminTable extends Component {
         const files = this.state.files;
 
         return (
+            <Card id="cardTable">
+            <CardHeader id="clientFiles"><h3 style={{color:"white"}}>Most Recent Files</h3></CardHeader>
             <div className="admin-table">
                 <div className={'admin-file-list'}>
                     <div className={'admin-list-header'}>
+                    <Label check>
+                <Input type="checkbox" id="checkbox2" />{' '}
+             
+              </Label>
+                    <div className={'admin-header-checkbox'}><input type="checkbox" className="form-check-input" id="checkbox" /></div>
                         <div className={'admin-header-name'}>File Name</div>
                         <div className={'admin-header-company'}>Company Name</div>
                         <div className={'admin-header-link'}>Download</div>
                     </div>
                     <div className={'admin-table-content'}>
+
                     {
                         files.length ?
                             <div>
@@ -71,6 +79,7 @@ class AdminTable extends Component {
                     </div>
                 </div>
             </div>
+            </Card>
         );
     }
 }
