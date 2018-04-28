@@ -10,7 +10,7 @@
 }
 
 .username{
-  margin-top: -13px;
+  margin-top: -6px;
 }
 
 .user-wrapper .user .userinfo .title{
@@ -39,7 +39,7 @@
 height:35px;
  width:40px;
  border-radius: 60%;
-margin-top: -11px;
+margin-top: 0px;
  margin-left: 650px;
     object-position:center right;
 
@@ -56,7 +56,7 @@ ul{
   position: absolute;
   display: inline-block;
   margin-left: 600px;
-  margin-top: -12px;
+  margin-top: -2px;
 
 }
 

@@ -3,12 +3,18 @@ background-color: #F5F7FA;
 
 
 color:#404A5D;
-margin-top: -35px;
+margin-top: 80px;
 font-size: 12px;
   padding: 0 10px;
 display: inline-grid;
-float:right;}
+float:right;
+width: 100vw;
+
+
+
+}
 
 .footer-copyright{
-	text-align:right;
+	text-align:center;
+	margin-left: 170px;
 }

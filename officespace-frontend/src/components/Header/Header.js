@@ -9,7 +9,7 @@ import Badge from '../badge/badge';
 
 
             <Navbar className="main-header" style={{backgroundColor:"#efefef",
-                                                    height:"80px", 
+                                                    height:"88px", 
                                                     width:"100%",
                                                     marginTop:"-25px",
                                                     paddingBottom:"40px", 

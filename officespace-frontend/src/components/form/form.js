@@ -6,7 +6,7 @@ import './form.css';
 import AWS from 'aws-sdk';
 import uuid from 'uuid';
 import Header from '../Header/Header';
-import {Card, CardBody} from 'reactstrap';
+import {Card, CardBody, CardHeader} from 'reactstrap';
 
 class UserForm extends Component
 {
@@ -176,17 +176,19 @@ onClickSubmitForm(event)
 
 
                 width: "calc(100%-280px)",
-                height:"95vh",
+                height:"100vh",
                 overflow: "auto",
                 backgroundColor:"#fafcfe",
                 minHeight: "100%",
                 boxShadow: "0 30px 130px 0 rgba(90, 105, 116, 0.1)"
+
             }}>
-                <Card>
-                    <CardBody>
+            <Card>       
+                    <CardBody id="card-body">
+
                         <div className="user-form">
 
-                            <p className="font-form paragraph-header">User Form</p>
+                           <p className="font-form paragraph-header">User Form </p>
                             <div className="signin-form-group">
                                 <label htmlFor="inputTextUsername">Username</label>
                                 <input onKeyUp={this.onKeyUpInputTextUsername} type="text" className="form-control form-input-position" id="inputTextUsername" placeholder="Username"/>
@@ -221,11 +223,12 @@ onClickSubmitForm(event)
                                     <option value="option">EU-West-3 (Paris)</option>
                                 </select>
                             </div>
-                            <button onClick={this.onClickSubmitForm}  className="btn btn-info w-10 form-submit-button">Submit</button>
+                            <button onClick={this.onClickSubmitForm}  className="btn w-10 form-submit-button">Submit</button>
 
                         </div>
                     </CardBody>
-                </Card>
+                
+        			</Card>
             </div>
 
 	

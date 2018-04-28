@@ -8,12 +8,14 @@ import {Col, Row, Container, Card, CardBody, CardTitle} from 'reactstrap';
 import ClientTable from "../../components/client-table/client-table";
 
 
-
+import Basic from '../../components/dnd/dnd';
+import UserForm from '../../components/form/form';
+import Login from '../../pages/Home/login-page';
 const Dashboard = () => (
     <div className="main-panel" style={{
 
   width: "calc(100%-280px)",
-  height:"95vh",
+  height:"100vh",
   overflow: "auto",
   backgroundColor:"#fafcfe",
   minHeight: "100%",
@@ -21,15 +23,13 @@ const Dashboard = () => (
 }}>
 
 <SideBar/>
- 
 
   <div className="content" style={{padding:"10px", marginLeft:"300px"}}>
 
  <Col md="12">
-<CompanyCards/>
+ 
 
-<AdminTable/>
-<ClientTable/>
+<Login/>
 
 
 </Col>

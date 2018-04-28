@@ -20,11 +20,12 @@ class Basic extends Component {
   render() {
     return (
   <div className="top">  
-<SideBar/>
-<Header/>
+
+
 <Card id="dndCard" >
 
-<CardHeader style={{backgroundColor:"#12a79d"}}>
+<CardHeader style={{backgroundColor: "rgb(83, 198, 186)"
+}}>
           <h2 style={{marginTop:"20px", color:"#ffffff"}}>Upload</h2>
           </CardHeader>
           <ul>
