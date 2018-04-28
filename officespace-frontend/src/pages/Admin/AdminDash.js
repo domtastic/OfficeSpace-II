@@ -5,6 +5,7 @@ import Footer from '../../components/footer/footer';
 import CompanyCards from '../../components/card/card';
 import AdminTable from '../../components/admin-table/admin-table';
 import {Col, Row, Container, Card, CardBody, CardTitle} from 'reactstrap';
+import ClientTable from "../../components/client-table/client-table";
 
 
 
@@ -26,7 +27,12 @@ const Dashboard = () => (
 
  <Col md="12">
 <CompanyCards/>
+<<<<<<< HEAD
 
+=======
+<AdminTable/>
+<ClientTable/>
+>>>>>>> e555d833eb2bb9aee662715f8b0022fca762b63f
 
 </Col>
 </div>

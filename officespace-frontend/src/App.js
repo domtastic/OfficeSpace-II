@@ -9,7 +9,7 @@ import "./App.css";
 import Login from './pages/Home/login-page';
 import Footer from './components/footer/footer';
 import SideBar from './components/sidebar/side-bar';
-import UserForm from './components/user-form/form';
+import UserForm from './components/form/form';
 import { Container, Row, Col } from 'reactstrap';
 import CompanyCards from './components/card/card';
 import NotFound from './components/not-found/not-found';

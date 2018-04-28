@@ -40,7 +40,6 @@ class ClientTable extends Component {
                     <div className={'client-list-header'}>
                         <div className={'client-header-content'}>
                             <div className={'client-header-name'}>File Name</div>
-                            <div className={'client-spacer-header'}> </div>
                             <div className={'client-header-link'}>Download</div>
                         </div>
                     </div>
@@ -52,7 +51,6 @@ class ClientTable extends Component {
                                 files.map((file, index)=>{
                                     return <div key={index} className={'client-file-list-element'}>
                                         <div className={'client-file-name'}>{file.name}</div>
-                                        <div className={'client-spacer'}> </div>
                                         <div className={'client-file-link'}>
                                             <a href={file.link} target={'_blank'}>
                                                 <img className={'download-icon'} src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcvjq0LFSK9kCFyLXrV156UMH00xUKWeEdR-OeY15rIKBix8ez'}/>
