@@ -42,6 +42,7 @@ export default class Login extends Component {
     }
 
     return (
+   
  <Container fluid>
 
 
@@ -49,8 +50,9 @@ export default class Login extends Component {
  <Col md="6">
   <div style={{marginTop:"90px", marginLeft:"70px"}}>
 
-      <h1 style={{ color:"#F88561",  fontWeight:"500", fontSize:"100px"}}>GeoFirm</h1>
-      <h3>Powered by OfficeSpace</h3>
+      <h1 style={{
+  fontWeight:"500", fontSize:"100px"}} id="geo">GeoFirm</h1>
+      <h5 style={{marginLeft:"80px"}}>Powered by OfficeSpace</h5>
 
      </div>
       </Col>
@@ -102,6 +104,7 @@ export default class Login extends Component {
       </div>
       </Col>
       </Row>
+
 </Container>
 
   )

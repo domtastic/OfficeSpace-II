@@ -91,7 +91,7 @@ closeDropdownMenu(event){
 
 
             
-            <li><a href="/clients"><i className="fas fa-users fa-lg" style={{marginTop:"0px", marginLeft:"-10px"}}id="icons"></i> Manage Clients</a></li>
+            <li><a href="/clients"><i className="fas fa-users fa-lg" style={{marginTop:"0px", marginLeft:"-10px"}} id="icons"></i> Manage Clients</a></li>
 
             <li>
 

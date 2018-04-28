@@ -26,7 +26,7 @@ const Dashboard = () => (
 
  <Col md="12">
 <CompanyCards/>
-<AdminTable/>
+
 
 </Col>
 </div>

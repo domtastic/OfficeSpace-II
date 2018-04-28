@@ -39,7 +39,7 @@ let peopleCards = this.state.people.map(person =>{
 })
   return (
   <Container fluid>
-  <CardDeck style={{marginLeft:"-10px", marginTop:"50px"}}>
+  <CardDeck style={{marginLeft:"-10px", marginTop:"19px"}}>
     {peopleCards}
     </CardDeck>
     </Container>
