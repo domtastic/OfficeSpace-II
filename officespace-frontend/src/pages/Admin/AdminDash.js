@@ -29,7 +29,7 @@ const Dashboard = () => (
  <Col md="12">
  
 
-<Login/>
+<Basic/>
 
 
 </Col>

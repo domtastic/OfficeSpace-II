@@ -54,8 +54,7 @@ closeDropdownMenu(event){
   render() {
     
     return (
-// <div className="content" >
-      // <div className="main-panel">
+
 <div>
 <Header/>
 

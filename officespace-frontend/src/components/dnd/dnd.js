@@ -26,7 +26,7 @@ class Basic extends Component {
 
 <CardHeader style={{backgroundColor: "rgb(83, 198, 186)"
 }}>
-          <h2 style={{marginTop:"20px", color:"#ffffff"}}>Upload</h2>
+          <h2 style={{marginTop:"20px", color:"#ffffff", textAlign:"center"}}>Upload</h2>
           </CardHeader>
           <ul>
             {
@@ -34,9 +34,9 @@ class Basic extends Component {
             }
           </ul>
         <div className="dropzone">
-          <Dropzone onDrop={this.onDrop.bind(this)}  style={{height:"40%", width:"75%", borderStyle:"dashed", borderColor:"#4363A8 ", marginTop:"70px", marginLeft:"100px"}}>
+          <Dropzone onDrop={this.onDrop.bind(this)}  style={{height:"300px", width:"75%", borderStyle:"dashed", borderColor:"#4363A8 ", marginTop:"45px", marginLeft:"80px"}}>
           <img src={require("../img/clouds.png")} id="image" />
-            <p style={{fontSize:"30px", marginLeft:"90px"}}>Drag & Drop Files to Upload</p>
+            <p style={{fontSize:"30px", marginLeft:"70px"}}>Drag & Drop Files to Upload</p>
           </Dropzone>
                      <Button id="dndButton">Upload</Button>
 

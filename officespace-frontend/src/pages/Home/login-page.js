@@ -52,8 +52,7 @@ export default class Login extends Component {
 
       <h1 style={{
   fontWeight:"500", fontSize:"100px"}} id="geo">GeoFirm</h1>
-      <h5 style={{marginLeft:"80px"
-}}>Powered by OfficeSpace</h5>
+      <h5 style={{marginLeft:"80px"}} id="officeSpace">Powered by OfficeSpace</h5>
 
      </div>
       </Col>

@@ -13,6 +13,7 @@ background-repeat: no-repeat;
 }
 
 
+
 .form-group{
 
 
@@ -53,7 +54,6 @@ margin-bottom: 70px;
 
 .login-card{
 	
-/*background-image: "./img/untitled-2.png";*/
 
 
 background-color:#fcfbff;
@@ -132,8 +132,9 @@ margin-left: -100px;
 /*style={{ marginTop:"-200px", height:"300px"}}
 */
 
-h5{
+#officeSpace{
 font-family: 'Pacifico', cursive;
+color:#ced4da;
 
 }
 
