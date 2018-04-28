@@ -123,7 +123,6 @@ body {
 }
 
 p {
-    font-family: 'Nunito', sans-serif;
     font-size: 1.1em;
     font-weight: 300;
     line-height: 1.7em;
@@ -194,13 +193,14 @@ background-image: linear-gradient(to top, #95a4dc, #7e8ed0, #6778c4, #5063b8, #3
 }
 
 .sidebar ul li a{
-    padding: 12px;
+    padding: 25px;
     font-size: 1.1em;
     display: block;
 }
 .sidebar ul li a:hover {
     color: #6FCDC8;
     background: #D6DCE6;
+    padding:25px;
 }
 
 
@@ -217,7 +217,7 @@ i{
 }
 
 li{
-  padding:17px;
+  padding:10px;
 
 }
 

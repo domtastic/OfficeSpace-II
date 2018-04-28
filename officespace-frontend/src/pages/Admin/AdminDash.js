@@ -27,12 +27,10 @@ const Dashboard = () => (
 
  <Col md="12">
 <CompanyCards/>
-<<<<<<< HEAD
 
-=======
 <AdminTable/>
 <ClientTable/>
->>>>>>> e555d833eb2bb9aee662715f8b0022fca762b63f
+
 
 </Col>
 </div>
