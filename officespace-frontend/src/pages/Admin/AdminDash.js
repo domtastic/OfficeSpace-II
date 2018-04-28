@@ -24,12 +24,12 @@ const Dashboard = () => (
 
 <SideBar/>
 
-  <div className="content" style={{padding:"10px", marginLeft:"300px"}}>
+  <div className="content" style={{padding:"10px", marginLeft:"300px", marginTop:"10px"}}>
 
  <Col md="12">
  
 
-<Basic/>
+
 
 
 </Col>

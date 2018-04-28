@@ -72,12 +72,15 @@ class App extends Component {
     return (
    
         <div className="App">
+
             {
               this.state.user.loggedIn ? <SideBar userInfo={this.state.user} logout={this.userLogOut}/>
                   : null
             }
         <Router>
+
           <div>
+              
             <Switch>
               <Route path='/' exact render={(props) => (
                 <Login userInfo={this.state.user} {...props} handleLogin={this.userDidLogin} />
@@ -109,10 +112,11 @@ class App extends Component {
       
               
             </Switch>
-
+ <Login/>
           </div>
+
         </Router>
-     
+
         </div>
     );
   }
